@@ -17,7 +17,7 @@ Watch Files
 
 Start the watcher
 
-    ./watcher.sh
+    bin/watcher.sh
 
 
 Edit File
