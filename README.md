@@ -1,8 +1,6 @@
 Shoelaces
 =========
 
-shortshoelaces.com
-
 ShortShoelaces.com uses [Plim](https://github.com/avanov/Plim) to generate html.
 
 
@@ -23,10 +21,18 @@ Start the watcher
 Edit File
 ---------
 
-    vi index.plim
+    vi src/index.plim
 
 
 View generated file in browser
 ------------------------------
 
-    firefox generated/index.html
+    firefox index.html
+
+
+Convert Original Files to Smaller Size
+--------------------------------------
+
+    cp images-original <new_dir>
+    cd <new_dir>
+    mogrify -path . -resize 400x400 -quality 75  *.jpg

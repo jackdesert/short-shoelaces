@@ -15,3 +15,8 @@
     p Tie a stopper knot (figure 8 works well) right before the end of your short lace to prevent this from happening.
 
 
+  p Tired of tying your shoelaces? They're probably too long!
+
+  p The standard bow knot is a [reef knot](link) with two bights, the purpose of the bights being the eas of untying. [ABOK 1214](link). If you are willing to forego these bights (and some of the untying ease), your laces will stay tied much longer.
+
+  p The bows that are generally used in the tying of long shoelaces does make those laces very easy to untie---just pull the end![ABOK 1214](link) But it also makes them prone to coming untied on their own.

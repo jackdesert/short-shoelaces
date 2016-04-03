@@ -21,4 +21,4 @@ if [ "$MD5_BEFORE" != "$MD5_AFTER" ];then
 fi
 
 # Start watcher to check for future changes
-watchmedo shell-command --pattern 'src/index.slim' --command 'plimc src/index.slim > index.html; echo "changed ${watch_src_path}"'
+watchmedo shell-command --pattern '*.slim' --recursive --command 'plimc src/index.slim > index.html; echo "changed ${watch_src_path}"'

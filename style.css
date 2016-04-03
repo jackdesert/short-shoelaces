@@ -3,9 +3,41 @@ body{
   margin: 0 auto;
 }
 
+h2{
+  margin-top: 3rem;
+}
+
+.space{
+  margin-bottom: 3rem;
+}
+
+.small-space{
+  margin-bottom: 1rem;
+}
+
 img{
-  padding: 1rem;
+  padding: 0rem 1rem;
   max-height: 300px;
   max-width: 300px;
 }
 
+img.hug-bottom{
+  padding-bottom: 0;
+}
+
+img.large{
+  max-height: 600px;
+  max-width: 600px;
+}
+
+.reference-marker{
+  display: inline;
+  position: relative;
+  bottom: 0.5rem;
+}
+
+#footer{
+  padding: 1rem 0;
+  text-align: center;
+  color: grey;
+}
