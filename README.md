@@ -36,3 +36,9 @@ Convert Original Files to Smaller Size
     cp images-original <new_dir>
     cd <new_dir>
     mogrify -path . -resize 400x400 -quality 75  *.jpg
+
+
+Publish
+-------
+
+    scp -r index.html style.css images $jj:webapps/shortshoelaces
