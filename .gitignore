@@ -2,3 +2,6 @@
 *.swo
 *.swn
 *.swm
+
+images-original/
+*.MOV
