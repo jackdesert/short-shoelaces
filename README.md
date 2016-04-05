@@ -41,4 +41,8 @@ Convert Original Files to Smaller Size
 Publish
 -------
 
-    scp -r index.html style.css images $jj:webapps/shortshoelaces
+    # Everything
+    scp -r index.html style.css .htaccess images $jj:webapps/shortshoelaces
+
+    # No Images
+    scp -r index.html style.css .htaccess $jj:webapps/shortshoelaces
